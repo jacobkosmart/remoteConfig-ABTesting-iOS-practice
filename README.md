@@ -1,12 +1,8 @@
 # 🧪 remoteConfig-ABTesting-iOS-practice
 
-- `isHidden = false` 일경우
-
-<img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/147554007-929aaf4a-7ff9-4e94-a9ba-46220d6a5f92.png">
-
-- `isHidden = true` 일 경우
-
-  <img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/147554371-1d56b322-8ab6-4ab6-817c-be10e231dbe3.png">
+| `isHidden = false`                                                                                                                                 |                                                                 `isHidden = true`                                                                  |
+| :------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/147554007-929aaf4a-7ff9-4e94-a9ba-46220d6a5f92.png"> | <img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/147554371-1d56b322-8ab6-4ab6-817c-be10e231dbe3.png"> |
 
 ## 📌 기능 상세
 

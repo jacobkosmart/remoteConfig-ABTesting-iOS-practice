@@ -6,14 +6,25 @@
 //
 
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-		// Override point for customization after application launch.
+		
+		// Firebase init
+		FirebaseApp.configure()
+		
+		// firebase 가 각각의 기기에 인증한 token 값을 console 에서 확인하기
+		Installations.installations().authTokenForcingRefresh(true) { result , error in
+			if let error = error {
+				print("ERROR")
+				return
+			}
+			guard let result = result else { return }
+			print("Installtion auth token : \(result.authToken) 임")
+		}
 		return true
 	}
 

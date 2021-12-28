@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810D25A7277A8BF500700475 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 810D25A6277A8BF500700475 /* GoogleService-Info.plist */; };
+		810D25A9277A906000700475 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 810D25A8277A906000700475 /* RemoteConfigDefaults.plist */; };
+		810DC9EE277A69E300811757 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810DC9EC277A69E300811757 /* NoticeViewController.swift */; };
+		810DC9EF277A69E300811757 /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810DC9ED277A69E300811757 /* NoticeViewController.xib */; };
+		81214262EFA8CCDEF236B68E /* Pods_remote_config_a_b_testing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908EEA26326DC72E6BE01AD6 /* Pods_remote_config_a_b_testing.framework */; };
 		819D1D22277A6796005133F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D1D21277A6796005133F1 /* AppDelegate.swift */; };
 		819D1D24277A6796005133F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D1D23277A6796005133F1 /* SceneDelegate.swift */; };
 		819D1D26277A6796005133F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D1D25277A6796005133F1 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CB6906D9D85E0FA21144B97 /* Pods-remote-config-a_b-testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remote-config-a_b-testing.debug.xcconfig"; path = "Target Support Files/Pods-remote-config-a_b-testing/Pods-remote-config-a_b-testing.debug.xcconfig"; sourceTree = "<group>"; };
+		810D25A6277A8BF500700475 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		810D25A8277A906000700475 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		810DC9EC277A69E300811757 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		810DC9ED277A69E300811757 /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
 		819D1D1E277A6796005133F1 /* remote-config-a_b-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "remote-config-a_b-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		819D1D21277A6796005133F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		819D1D23277A6796005133F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,8 @@
 		819D1D2A277A6798005133F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819D1D2D277A6798005133F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		819D1D2F277A6798005133F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908EEA26326DC72E6BE01AD6 /* Pods_remote_config_a_b_testing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remote_config_a_b_testing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F580E4F69C63574E47CACA /* Pods-remote-config-a_b-testing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remote-config-a_b-testing.release.xcconfig"; path = "Target Support Files/Pods-remote-config-a_b-testing/Pods-remote-config-a_b-testing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81214262EFA8CCDEF236B68E /* Pods_remote_config_a_b_testing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2529767685E000D6F4416B9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CB6906D9D85E0FA21144B97 /* Pods-remote-config-a_b-testing.debug.xcconfig */,
+				D0F580E4F69C63574E47CACA /* Pods-remote-config-a_b-testing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		819D1D15277A6796005133F1 = {
 			isa = PBXGroup;
 			children = (
 				819D1D20277A6796005133F1 /* remote-config-a_b-testing */,
 				819D1D1F277A6796005133F1 /* Products */,
+				2529767685E000D6F4416B9C /* Pods */,
+				DBA82191BBD8951F86C93B01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +83,24 @@
 				819D1D21277A6796005133F1 /* AppDelegate.swift */,
 				819D1D23277A6796005133F1 /* SceneDelegate.swift */,
 				819D1D25277A6796005133F1 /* ViewController.swift */,
+				810D25A8277A906000700475 /* RemoteConfigDefaults.plist */,
 				819D1D27277A6796005133F1 /* Main.storyboard */,
 				819D1D2A277A6798005133F1 /* Assets.xcassets */,
 				819D1D2C277A6798005133F1 /* LaunchScreen.storyboard */,
+				810DC9EC277A69E300811757 /* NoticeViewController.swift */,
+				810DC9ED277A69E300811757 /* NoticeViewController.xib */,
 				819D1D2F277A6798005133F1 /* Info.plist */,
+				810D25A6277A8BF500700475 /* GoogleService-Info.plist */,
 			);
 			path = "remote-config-a_b-testing";
+			sourceTree = "<group>";
+		};
+		DBA82191BBD8951F86C93B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				908EEA26326DC72E6BE01AD6 /* Pods_remote_config_a_b_testing.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 819D1D32277A6798005133F1 /* Build configuration list for PBXNativeTarget "remote-config-a_b-testing" */;
 			buildPhases = (
+				53C0A3CB31325228AC64FB83 /* [CP] Check Pods Manifest.lock */,
 				819D1D1A277A6796005133F1 /* Sources */,
 				819D1D1B277A6796005133F1 /* Frameworks */,
 				819D1D1C277A6796005133F1 /* Resources */,
+				B957AFFABD6041188CF5BEC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +163,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810D25A9277A906000700475 /* RemoteConfigDefaults.plist in Resources */,
 				819D1D2E277A6798005133F1 /* LaunchScreen.storyboard in Resources */,
 				819D1D2B277A6798005133F1 /* Assets.xcassets in Resources */,
+				810D25A7277A8BF500700475 /* GoogleService-Info.plist in Resources */,
+				810DC9EF277A69E300811757 /* NoticeViewController.xib in Resources */,
 				819D1D29277A6796005133F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53C0A3CB31325228AC64FB83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-remote-config-a_b-testing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B957AFFABD6041188CF5BEC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-remote-config-a_b-testing/Pods-remote-config-a_b-testing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-remote-config-a_b-testing/Pods-remote-config-a_b-testing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-remote-config-a_b-testing/Pods-remote-config-a_b-testing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		819D1D1A277A6796005133F1 /* Sources */ = {
@@ -140,6 +223,7 @@
 			files = (
 				819D1D26277A6796005133F1 /* ViewController.swift in Sources */,
 				819D1D22277A6796005133F1 /* AppDelegate.swift in Sources */,
+				810DC9EE277A69E300811757 /* NoticeViewController.swift in Sources */,
 				819D1D24277A6796005133F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +368,7 @@
 		};
 		819D1D33277A6798005133F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB6906D9D85E0FA21144B97 /* Pods-remote-config-a_b-testing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +380,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +392,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		819D1D34277A6798005133F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F580E4F69C63574E47CACA /* Pods-remote-config-a_b-testing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +410,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +422,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
